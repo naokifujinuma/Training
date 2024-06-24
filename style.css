@@ -1,0 +1,269 @@
+@charset "UTF-8";
+
+/* 共通 */
+body {
+    height: 100vh;
+    position: relative;
+}
+main {
+    max-width: 100%;
+    background-color: #fff;
+}
+h1 {
+    font-size: 2em;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+.main-container {
+    height: 450px;
+    background-color: #e0383b;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+footer {
+    width: 100%;
+    background-color: gray;
+    text-align: center;
+    bottom: 0;
+    position: absolute;
+}
+footer a img {
+    width: 80px;
+    height: 80px;
+}
+.tap-wrap {
+    text-align: center;
+    padding-top: 120px;
+}
+.tap-wrap a {
+    color: #333333;
+    background-color: #e0383b;
+    border-radius: 10px;
+    padding: 10px 20px;
+    display: inline-block;
+    transition: .3s;
+}
+.tap-wrap a:hover {
+    transform: scale(1.1);
+}
+
+
+/* index.html */
+main .main-wrapper {
+    height: 500px;
+    background-color: #e0383b;
+}
+.main-wrapper .title {
+    padding: 40px;
+}
+.main-wrapper .title h2 {
+    text-align: center;
+}
+.main-wrapper .month {
+    font-size: 20px;
+    margin-left: 200px;
+}
+.main-wrapper .calendar-wrap {
+    border: 1px solid #fff;
+    max-width: 70%;
+    margin: 0 auto;
+    height: 200px;
+}
+.main-wrapper .calendar-wrap a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+.main-wrapper dl {
+    max-width: 40%;
+    margin: 25px auto;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-wrapper .load-container {
+    text-align: center;
+    border: 1px solid #fff;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+main .fight {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+main .fight a {
+    background-color: #e0383b;
+    font-size: 25px;
+    padding: 10px;
+    border: 1px solid #e0383b;
+    border-radius: 10px;
+}
+
+/* register.html */
+.register-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(87, 92, 103);
+}
+.register {
+    text-align: center;
+    background-color: rgb(145, 151, 172);
+    padding: 80px;
+    box-shadow: 4px 4px 4px #333333;
+    border-radius: 5px;
+}
+.register h2 {
+    font-size: 50px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+.register .form-wrapper {
+    margin-top: 10px;
+}
+
+.register h2{
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.register .form-btn {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+/* register.php */
+
+
+/* calendar.php */
+
+.calendar-container {
+    color: #e0383b;
+    background-color: #bebbbb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.calendar-wrap {
+    display: block;
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+}
+.calendar-wrap table {
+    width: 80%;
+    height: 80%;
+    text-align: center;
+}
+
+
+/* event_form.php */
+.date {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.event_form_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.event_form {
+    width: 300px;
+    height: 300px;
+    border: 1px solid #333333;
+    border-radius: 10px;
+    position: relative;
+    background-color: #fff;
+}
+.event_form_wrap {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+.event_form_wrap .submit-btn {
+    margin-top: 30px;
+}
+
+/* training.html */
+.training-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.training-wrap {
+    width: 400px;
+}
+.training-wrap h3 {
+    text-align: center;
+}
+.training-btn {
+    text-align: center;
+}
+
+.time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-top: 50px;
+}
+.time-container {
+    text-align: center;
+    border: 1px solid #333333;
+    border-radius: 10px;
+    padding: 10px 30px 20px 30px;
+    background-color: #e0383b;
+}
+
+/* event.php */
+
+.event_add {
+    color: #e0383b;
+    text-align: center;
+}
+.event_wrap {
+    text-align: center;
+}
+
+/* training.php */
+.training_add {
+    color: #e0383b;
+    text-align: center;
+}
+.t_wrap {
+    display: flex;
+    justify-content: center; /* 中央揃え */
+}
+
+.training_wrap {
+    text-align: left; /* 左寄せ */
+    margin: 0 auto;
+    width: 50%;
+}
+
+
+@media (max-width:767px) {
+    
+}
